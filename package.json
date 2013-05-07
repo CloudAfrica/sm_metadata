@@ -3,10 +3,18 @@
     "version": "0.0.1",
     "description": "smartos metadata server (experimental)",
     "scripts": {
-        "start": "node app.js"
+        "start": "node app.js",
+        "test": "grunt nodeunit"
     },
     "dependencies": {
-        "express": "~3.2.2"
+        "restify": "~2.4.1"
+    },
+    "devDependencies": {
+        "grunt-contrib-nodeunit": "~0.1.2",
+        "grunt-contrib-jshint": "~0.1.1",
+        "grunt-contrib-watch": "~0.2.0",
+        "grunt": "~0.4.1",
+        "nodeunit": "0.8.0"
     },
     "repository": {
         "type": "git",
@@ -16,4 +24,3 @@
     "license": "Apache",
     "readmeFilename": "README.md"
 }
-

@@ -1,19 +1,28 @@
-== SmartOS metadata service
+# sm_metadata
 
-We want to be able to run images that use cloud-init and this is an experiment
-to see how the server might look.
+smartos metadata server (experimental)
 
-Dev setup
+## Getting Started
 
-`
-npm install
-`
+Setup: clone this repo then `npm install`
 
-To run
+We need grunt installed from http://gruntjs.com/
 
-`
-node app.js
-`
+The just run `grunt`
 
-Then you should be able to go to http://localhost:3000/ping and get pong back to see if it is working.
 
+## Documentation
+_(Coming soon)_
+
+## Examples
+_(Coming soon)_
+
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+## Release History
+_(Nothing yet)_
+
+## License
+Copyright (c) 2013 Len Weincier  
+Licensed under the Apache, 2.0 licenses.
